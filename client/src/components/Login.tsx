@@ -25,13 +25,12 @@ const Login:React.FC =()=>{
          setId(res.data?.login?.user.id);
          localStorage.setItem("uid",res.data?.login?.user.id)
          history.push("/Profile");  
-        }else{
-         setalogin(true);
         }
      }
 
     )
     .catch(error=>{
+        setalogin(true);
         console.log(error.message);
       });
       

@@ -32,10 +32,12 @@ ul{
 .loginform{
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
  .login-card{
     position: relative;
+    left: 35%;
+    width: 500px; 
 } 
 .login-alert{
     position: relative;
